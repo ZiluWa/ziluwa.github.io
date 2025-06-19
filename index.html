@@ -32,9 +32,11 @@
     <div id="main">
       <!-- THIS IS THE NEW VIDEO SECTION -->
       <section id="video-intro">
-        <div style="position:relative;padding-top:56.25%;">
-            <iframe src="https://iframe.mediadelivery.net/embed/457273/d4698227-5e1f-4aff-ab18-fc710cb0f4ba?autoplay=false&loop=false&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe>
-        </div>
+        <!-- Replaced the old iframe with a standard HTML5 video tag -->
+        <video controls preload="auto" style="width: 100%; max-width: 100%; height: auto;">
+          <source src="https://outin-cf9d9f094d3e11f0a9d000163e14b633.oss-cn-shanghai.aliyuncs.com/sv/23701985-197898b330a/23701985-197898b330a.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </section>
 
       <!-- One -->
