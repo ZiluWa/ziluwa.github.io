@@ -13,21 +13,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- Custom styles to adjust layout -->
-    <style>
-      /* On large screens, adjust the width of the sidebar and main content area */
-      @media screen and (min-width: 981px) {
-        #header {
-          /* 侧边栏宽度已调宽 */
-          width: 20em;
-        }
-
-        #main {
-          /* 主内容区域根据侧边栏宽度调整 */
-          margin-left: 20em;
-        }
-      }
-    </style>
+    <!-- Restored original layout by removing custom styles -->
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -44,12 +30,12 @@
 
     <!-- Main -->
     <div id="main">
-      <!-- VIDEO SECTION UPDATED -->
+      <!-- VIDEO TITLE MOVED HIGHER AND IS BOLD -->
+      <h2 style="font-weight: bold;">《第27秒》</h2>
+
+      <!-- Video Section -->
       <section id="video-intro">
-        <!-- VIDEO TITLE ADDED HERE -->
-        <h2>《第27秒》</h2>
-        
-        <video controls preload="auto" style="width: 100%; height: auto; border-radius: 8px; margin-top: 1em;">
+        <video controls preload="auto" style="width: 100%; height: auto; border-radius: 8px;">
           <source src="https://outin-cf9d9f094d3e11f0a9d000163e14b633.oss-cn-shanghai.aliyuncs.com/sv/23701985-197898b330a/23701985-197898b330a.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
