@@ -13,6 +13,19 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Custom styles to make the video section bigger -->
+    <style>
+      /* On large screens, shrink the left header to give more room to the main content */
+      @media screen and (min-width: 981px) {
+        #header {
+          width: 18em;
+        }
+
+        #main {
+          margin-left: 18em;
+        }
+      }
+    </style>
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -22,21 +35,25 @@
           ><img src="images/avatarhead.jpg" alt=""
         /></a>
         <h1>
-          <strong>Hi, I'm Zilu Wang.</strong> I like AI,<br />
-          agents, startups, art, and music.
+          <!-- INTRO TEXT UPDATED HERE -->
+          <strong>Hi, I'm Zilu Wang.</strong> I like art, music, AI and startups.
         </h1>
       </div>
     </header>
 
     <!-- Main -->
     <div id="main">
-      <!-- THIS IS THE NEW VIDEO SECTION -->
+      <!-- VIDEO SECTION UPDATED -->
       <section id="video-intro">
-        <!-- Replaced the old iframe with a standard HTML5 video tag -->
-        <video controls preload="auto" style="width: 100%; max-width: 100%; height: auto;">
+        <video controls preload="auto" style="width: 100%; height: auto; border-radius: 8px;">
           <source src="https://outin-cf9d9f094d3e11f0a9d000163e14b633.oss-cn-shanghai.aliyuncs.com/sv/23701985-197898b330a/23701985-197898b330a.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+        <!-- VIDEO DESCRIPTION ADDED HERE -->
+        <p style="margin-top: 1.5em; line-height: 1.75em;">
+            未来人类沉溺于AI编织的梦境，脑机接口为我们构建虚拟伊甸园——直到第25秒的故障撕裂幻象。我们究竟是数字囚徒，还是被科技豢养的幻梦者？<br><br>
+            花园中的蝴蝶、热气球等3D模型由AI模型生成。通过Apple Vision Pro，这些虚拟物件被融入佩戴者的现实感知，构建出AR幻境。
+        </p>
       </section>
 
       <!-- One -->
